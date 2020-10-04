@@ -322,9 +322,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -100
   m_TargetDisplay: 0
 --- !u!224 &154996593
 RectTransform:
@@ -848,7 +848,7 @@ MonoBehaviour:
   height: 1024
   folder: Screenshots
   filenamePrefix: screenshot
-  ensureTransparentBackground: 1
+  ensureTransparentBackground: 0
 --- !u!1 &691419767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,7 +1649,6 @@ GameObject:
   - component: {fileID: 1183111755}
   - component: {fileID: 1183111756}
   - component: {fileID: 1183111757}
-  - component: {fileID: 1183111758}
   - component: {fileID: 1183111759}
   m_Layer: 0
   m_Name: Player
@@ -1804,14 +1803,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!81 &1183111758
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183111750}
-  m_Enabled: 1
 --- !u!82 &1183111759
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3492,7 +3483,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916022624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3570,7 +3561,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 1280, y: -865.32495}
-  m_SizeDelta: {x: 480, y: 350}
+  m_SizeDelta: {x: 621.82, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2023357544
 MonoBehaviour:
@@ -3592,11 +3583,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Press Q, W, E, R to swap your color!
-
-
-    Match your color to pass through
-    matching colors!'
+  m_text: "You're trapped in a loop! \r\n\nMatch your color and survive as long as
+    possible!\n\nUse QWER to swap colors!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3618,7 +3606,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -3630,9 +3618,9 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
-  m_textAlignment: 258
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0

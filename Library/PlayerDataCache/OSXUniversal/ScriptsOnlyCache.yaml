@@ -86,53 +86,53 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11832}
-    - Class: 114
       Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 11860}
+      Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 12222}
+      Script: {instanceID: 11862}
     - Class: 114
-      Script: {instanceID: 12426}
+      Script: {instanceID: 12224}
     - Class: 114
-      Script: {instanceID: 12628}
+      Script: {instanceID: 12428}
     - Class: 114
-      Script: {instanceID: 12834}
+      Script: {instanceID: 12630}
     - Class: 114
-      Script: {instanceID: 12904}
+      Script: {instanceID: 12836}
     - Class: 114
-      Script: {instanceID: 12940}
+      Script: {instanceID: 12906}
     - Class: 114
-      Script: {instanceID: 12996}
+      Script: {instanceID: 12942}
     - Class: 114
-      Script: {instanceID: 13516}
+      Script: {instanceID: 12998}
     - Class: 114
-      Script: {instanceID: 13544}
+      Script: {instanceID: 13518}
     - Class: 114
-      Script: {instanceID: 13872}
+      Script: {instanceID: 13546}
     - Class: 114
-      Script: {instanceID: 13890}
+      Script: {instanceID: 13874}
     - Class: 114
-      Script: {instanceID: 13944}
+      Script: {instanceID: 13892}
     - Class: 114
-      Script: {instanceID: 14088}
+      Script: {instanceID: 13946}
     - Class: 114
-      Script: {instanceID: 14108}
+      Script: {instanceID: 14090}
     - Class: 114
-      Script: {instanceID: 14158}
+      Script: {instanceID: 14110}
     - Class: 114
-      Script: {instanceID: 14352}
+      Script: {instanceID: 14160}
     - Class: 114
-      Script: {instanceID: 14432}
+      Script: {instanceID: 14354}
     - Class: 114
-      Script: {instanceID: 14536}
+      Script: {instanceID: 14434}
     - Class: 114
-      Script: {instanceID: 14826}
+      Script: {instanceID: 14538}
     - Class: 114
-      Script: {instanceID: 15168}
+      Script: {instanceID: 14828}
     - Class: 114
-      Script: {instanceID: 15216}
+      Script: {instanceID: 15170}
+    - Class: 114
+      Script: {instanceID: 15218}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -701,5 +701,5 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/Scenes/Game.unity
-  playerPath: G:/Quick Access/Documents/_UnityProjects/LD47-StuckInALoop - Git/Builds/Mac
+  playerPath: G:/Quick Access/Documents/_UnityProjects/LD47-StuckInALoop - Git/Builds/ColorLoopMac
     OS X.app

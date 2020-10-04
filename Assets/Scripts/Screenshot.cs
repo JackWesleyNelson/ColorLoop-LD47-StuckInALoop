@@ -6,8 +6,8 @@ using UnityEngine;
 public class Screenshot : MonoBehaviour
 {
 
-    [SerializeField] int width = 1024;
-    [SerializeField] int height = 512;
+    [SerializeField] int width = 2560;
+    [SerializeField] int height = 1440;
     [SerializeField] string folder = "Screenshots";
     [SerializeField] string filenamePrefix = "screenshot";
     [SerializeField] bool ensureTransparentBackground = false;
